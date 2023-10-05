@@ -1,0 +1,50 @@
+@import "loops";
+@import "shared";
+
+body{
+    font-family: sans-serif;
+}
+.border{
+    border-radius: 100px;
+}
+.orange{
+    background:#ff4400bb !important;
+}
+.fw{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.hr{
+    position: relative;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.hr::after{
+    content: "";
+    width: 60px;
+    height: 4px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff4400bb;
+}
+.icon{
+    margin-bottom: 1rem;
+}
+footer{
+    margin-block: 4rem;
+}
+
+// .container{
+//     .qator{
+        
+//         border: 2px solid;
+//     }
+
+//     input,
+//     textarea{
+//         padding: 10px 20px;
+//         color: black;
+//     }
+// }
